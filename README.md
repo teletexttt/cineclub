@@ -7,7 +7,7 @@ Sitio oficial del **Silvia Prieto Cineclub**, con sede en Viedma, Río Negro. Un
 ## 🎬 ¿Qué hay en este sitio?
 
 - Información del Cineclub y su manifiesto.
-- Estética basada en colores negro y limón.
+- Noticias del CineClub que iremos actualizando permanentemente.
 - Suscripción al newsletter con envío de datos a tu correo usando [Formspree](https://formspree.io).
 
 ---
