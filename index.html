@@ -18,40 +18,48 @@
       <header>
         <h1>Silvia Prieto Cineclub</h1>
         <p style="margin-top: -20px;">Bienvenidxs al sitio oficial del <strong>Silvia Prieto Cineclub</strong></p>
-        <button id="btn-Newsletter" style="background: transparent; border: 2px solid #bfff00; color: #bfff00; padding: 10px 20px; font-size: 16px; border-radius: 6px; margin-top: 20px; cursor: pointer;">
+        <button id="btn-newsletter" style="background: transparent; border: 2px solid #bfff00; color: #bfff00; padding: 10px 20px; font-size: 16px; border-radius: 6px; margin-top: 20px; cursor: pointer;">
           Newsletter
         </button>
       </header>
     </div>
   </div>
 
-  <div class="manifiesto">
-    <div class="manifiesto-container">
-      <h2>Manifiesto</h2>
-      <p>No sabrías exactamente qué esperar de ella...</p>
-      <p>Tendría algo de metódico y algo de improvisado...</p>
-      <p>Entre función y función, las películas se vincularían...</p>
-      <p>No buscaría sorprender con grandes giros ni escenas impactantes...</p>
-      <p>Y, sobre todo, invitaría a pensarse. A pensarse distinto...</p>
-      <p>Como cuando, al fin, arroja la muñeca —y con ese gesto mínimo, se permite empezar de nuevo.</p>
-    </div>
-  </div>
+  <div class="manifiesto-container" style="font-family: Arial, sans-serif; text-align: center; white-space: pre-wrap; font-size: 16px; line-height: 1.7;">
+  <h2 style="font-family: 'UnifrakturCook', cursive; font-size: 2.2em; margin-bottom: 30px;">Manifiesto</h2>
 
-  <footer>
-    © 2025 Silvia Prieto Cineclub. Todos los derechos reservados?
-  </footer>
+  Si Silvia Prieto fuera un cineclub…  
+  
+  No sabrías exactamente qué esperar.  
+  No estaría en una plataforma, ni permitiría adelantar la película.  
+  Sería un espacio compartido —como una sala de espera— donde lo extraño y lo poético se filtran sin avisar.  
+  Un lugar donde se ríe en los mismos silencios, se incomoda con lo mismo…  
+  aunque nadie sepa muy bien por qué.  
+  
+  Tendría algo de metódico y algo de improvisado.  
+  Haría listas, anotaría nombres, repetiría recetas.  
+  Insistiría cada jueves con el mismo gesto:  
+  abrir una pausa en la rutina  
+  para proyectar una película cuyo título es un misterio.  
+  Una búsqueda persistente de lo insólito en lo cotidiano.  
+  
+  Entre función y función, las películas se vincularían  
+  como en una cadena de asociaciones misteriosas:  
+  una voz en off que no se presenta,  
+  una carta que no llega, un nombre compartido.  
+  
+  No buscaría sorprender con grandes giros ni escenas impactantes.  
+  Preferiría los gestos mínimos, los personajes comunes, las vidas que se transforman sin ruido.  
+  
+  Y, sobre todo,  
+  nos invitaría a pensarnos.  
+  como individuos que se transforman.  
+  como habitantes de esta comarca  
+  que también cambia,  
+  aunque todo  
+  parezca seguir igual.
+</div>
 
-  <div id="newsletter-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; align-items:center; justify-content:center;">
-    <div style="background:#000; border:2px solid #bfff00; border-radius:10px; padding:30px; max-width:400px; width:90%; color:#fff; font-family:Arial, sans-serif; text-align:center;">
-      <h2 style="color:#bfff00;">Ok, me subscribo!</h2>
-      <form action="https://formspree.io/f/xrbqolvy" method="POST" onsubmit="enviarFormulario(event)"> 
-        <input type="text" name="nombre" placeholder="Tu nombre" required style="width:100%; padding:10px; margin:10px 0; border-radius:6px; border:1px solid #bfff00; background:#111; color:#fff;"><br>
-        <input type="email" name="email" placeholder="Tu email" required style="width:100%; padding:10px; margin:10px 0; border-radius:6px; border:1px solid #bfff00; background:#111; color:#fff;"><br>
-        <button type="submit" style="background:#bfff00; color:#000; padding:10px 20px; border:none; border-radius:6px; cursor:pointer;">Enviar</button>
-        <button type="button" onclick="document.getElementById('newsletter-modal').style.display='none'" style="background:transparent; border:1px solid #bfff00; color:#bfff00; padding:10px 20px; margin-left:10px; border-radius:6px; cursor:pointer;">Cancelar</button>
-      </form>
-    </div>
-  </div>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
