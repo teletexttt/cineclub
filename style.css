@@ -1,0 +1,109 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-banner {
+  background-color: #bfff00;
+  color: #000;
+  overflow: hidden;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.top-banner p {
+  white-space: nowrap;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 3em;
+  margin-bottom: 20px;
+  margin-top: -40px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('sp.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.8); /* oscurece la imagen */
+}
+
+
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.manifiesto {
+  background-color: #fff;
+  color: #000;
+  padding: 60px 20px;
+}
+
+.manifiesto-container {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 20px;
+  text-align: center;
+}
+
+.manifiesto-container h2 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'UnifrakturCook', cursive;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8em;
+  color: #777;
+}
+
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
