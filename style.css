@@ -54,6 +54,8 @@ h1 {
   background-color: rgba(0, 0, 0, 0.8); /* oscurece la imagen */
 }
 
+
+
 .hero-content {
   display: flex;
   flex-direction: column;
